@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Text by ID</title>
+</head>
+<body>
+
+  <p id="message">Old text</p>
+
+  <button onclick="changeText()">Click me</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("message").textContent = "New text";
+    }
+  </script>
+
+</body>
+</html>
